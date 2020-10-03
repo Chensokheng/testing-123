@@ -15,7 +15,7 @@ export default function App() {
     <div className={classes.root}>
       <div>
         <h1>Hello world change</h1>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="post" action="/contact">
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
@@ -27,7 +27,6 @@ export default function App() {
               Your Email: <input type="email" name="email" />
             </label>
           </p>
-
           <p>
             <label>
               Message: <textarea name="message"></textarea>
