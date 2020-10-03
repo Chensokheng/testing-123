@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className={classes.root}>
       <div>
-        <h1>Hello world</h1>
+        <h1>Hello world change</h1>
         <form name="contact" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
           <p>
