@@ -130,7 +130,7 @@ export default function App() {
                   fullWidth
                 />
               </p>
-              <Button variant="contained" color="primary">
+              <Button variant="contained" color="primary" type="submit">
                 Submit
               </Button>
             </form>
